@@ -1,0 +1,1127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/backgrounds/bg_main03-pt.jpg);
+    background-position: center;
+}
+
+.navbar {
+    background-color: #470202;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 10px #3d0101;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.icon {
+    float: left;
+    margin-left: 20px;
+}
+
+.logo-icon {
+    width: 215px;
+    height: 90px;
+    border-radius: 50%;
+    border: hidden;
+}
+
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    margin: 0;
+    padding: 0; 
+    text-shadow: #fd2727;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 40px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color:#F3F0E0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    opacity: 0.7;
+    border-bottom: 2px solid rgba(243, 240, 224, 0.5); 
+    text-decoration: none; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    background-color:transparent; 
+    padding: 5px 10px;
+}
+
+.home-page {
+    background-image: url(images/backgrounds/homepage-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 170px;
+    display: flex;   
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 1340px;
+    height: 600px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 4px 4px 8px hsl(288, 97%, 14%);
+}
+
+.home-page h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: #F3F0E0;
+    position: absolute;
+    top: 100px;
+    left: 350px;
+}
+
+.home-page p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #F3F0E0;
+    font-size: 25px;
+    width: 92%;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+.tanjiro {
+    background-image: url(images/backgrounds/demonslayer_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 150px;
+    display: flex;   
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 1340px;
+    height: 400px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 4px 4px 10px hsl(288, 97%, 14%);
+}
+
+
+.tanjiro h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    width: 55%;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    margin: 0;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+    
+.tanjiro p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 55%;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    margin: 0;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-align: justify;   
+}
+
+.tanjiro-button {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+}
+
+.tanjiro-button button {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #da52f5;
+    border: 2px solid;
+    border-color: #da52f5;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #69067d;
+}
+
+.tanjiro-button button:hover {
+    border-color: #da52f5;
+    background-color: transparent;
+    color: #da52f5;
+}
+
+.tanjiro-button a {
+    text-decoration: none;
+    color: #F3F0E0; 
+}
+
+.tanjiro-button a:hover{
+    color: #da52f5;
+    transition: 0.5s;
+}
+
+.tanjiro-image {
+    width: 50%;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 245px;
+    left: 800px;
+}
+
+.tanjiro-image img {
+    height: 150%;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.water-breathing {
+    background-color: transparent;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 265px;
+    left: 280px;
+}
+
+.water-breathing img {
+    height: 135px;
+    position: absolute;
+    top: -5px;
+    left: 25px;
+}
+
+.water-breathing p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+.hinokami-kagura {
+    background-color: transparent;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 265px;
+    left: 280px;
+}
+
+.hinokami-kagura img {
+    height: 135px;
+    position: absolute;
+    top: -3px;
+    left: 200px;
+}
+
+.hinokami-kagura p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+}
+
+.kyojuro-content {
+    background-color: #540202;
+    margin-top: 100px;
+    margin-left: 70px;
+    display: flex;   
+    flex-wrap: wrap;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 4px 4px 10px hsl(0, 97%, 12%); 
+}
+
+.kyojuro-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 201px;
+    margin: 0;
+    position: absolute;
+    top: 27px;
+    left: 25px;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+
+.kyojuro-content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 50%;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    margin: 0;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+    text-align: justify;  
+}
+
+.kyojuro-btn button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #3c0101;
+    border-color: #3c0101;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px hsl(0, 96%, 10%);
+    position: absolute;
+    bottom: 34px;
+    left: 33px;
+}
+
+.kyojuro-btn button:hover {
+    border-color:#3c0101;
+    background-color: transparent;
+    color:#3c0101;
+}
+
+.kyojuro-btn a {
+    text-decoration: none;
+    color: #F3F0E0; 
+}
+
+.kyojuro-btn a:hover{
+    color: #3c0101;
+    transition: 0.5s;
+}
+
+.kyojuro-image {
+    width: 20%;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1238px;
+    left: -180px;
+}
+
+.kyojuro-image img {
+    height: 170%;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.sanemi-content {
+    background-color: #540202;
+    margin-top: -290px;
+    margin-left: 540px;
+    display: flex;   
+    flex-wrap: wrap;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 4px 4px 10px hsl(0, 97%, 12%); 
+}
+
+.sanemi-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 280px;
+    margin: 0;
+    position: absolute;
+    top: 27px;
+    left: 25px;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+
+.sanemi-content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 55%;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    margin: 0;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+    text-align: justify;  
+}
+
+.sanemi-btn button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #3c0101;
+    border-color: #3c0101;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px hsl(0, 96%, 10%);
+    position: absolute;
+    bottom: 69px;
+    left: 33px;
+}
+
+.sanemi-btn button:hover {
+    border-color:#3c0101;
+    background-color: transparent;
+    color:#3c0101;
+}
+
+.sanemi-btn a {
+    text-decoration: none;
+    color: #F3F0E0; 
+}
+
+.sanemi-btn a:hover{
+    color: #3c0101;
+    transition: 0.5s;
+}
+
+.sanemi-image {
+    width: 20%;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1238px;
+    left: 310px;
+}
+
+.sanemi-image img {
+    height: 170%;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.giyuu-content {
+    background-color: #540202;
+    margin-top: -290px;
+    margin-left: 1010px;
+    display: flex;   
+    flex-wrap: wrap;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 4px 4px 10px hsl(0, 97%, 12%); 
+}
+
+.giyuu-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 280px;
+    margin: 0;
+    position: absolute;
+    top: 27px;
+    left: 25px;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+
+.giyuu-content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 55%;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    margin: 0;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+    text-align: justify;  
+}
+
+.giyuu-btn button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #3c0101;
+    border-color: #3c0101;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px hsl(0, 96%, 10%);
+    position: absolute;
+    bottom: 69px;
+    left: 33px;
+}
+
+.giyuu-btn button:hover {
+    border-color:#3c0101;
+    background-color: transparent;
+    color:#3c0101;
+}
+
+.giyuu-btn a {
+    text-decoration: none;
+    color: #F3F0E0; 
+}
+
+.giyuu-btn a:hover{
+    color: #3c0101;
+    transition: 0.5s;
+}
+
+.giyuu-image {
+    width: 20%;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1178px;
+    left: 670px;
+}
+
+.giyuu-image img {
+    height: 200%;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.gyomei-content {
+    background-color: #540202;
+    margin-top: 90px;
+    margin-left: 70px;
+    display: flex;   
+    flex-wrap: wrap;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 4px 4px 10px hsl(0, 97%, 12%); 
+}
+
+.gyomei-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 280px;
+    margin: 0;
+    position: absolute;
+    top: 27px;
+    left: 25px;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+
+.gyomei-content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 50%;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    margin: 0;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+    text-align: justify;  
+}
+
+.gyomei-btn button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #3c0101;
+    border-color: #3c0101;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px hsl(0, 96%, 10%);
+    position: absolute;
+    bottom: 53px;
+    left: 33px;
+}
+
+.gyomei-btn button:hover {
+    border-color:#3c0101;
+    background-color: transparent;
+    color:#3c0101;
+}
+
+.gyomei-btn a {
+    text-decoration: none;
+    color: #F3F0E0; 
+}
+
+.gyomei-btn a:hover{
+    color: #3c0101;
+    transition: 0.5s;
+}
+
+.gyomei-image {
+    width: 20%;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1617px;
+    left: -185px;
+}
+
+.gyomei-image img {
+    height: 170%;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.obanai-content {
+    background-color: #540202;
+    margin-top: -290px;
+    margin-left: 540px;
+    display: flex;   
+    flex-wrap: wrap;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 4px 4px 10px hsl(0, 97%, 12%); 
+}
+
+.obanai-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 280px;
+    margin: 0;
+    position: absolute;
+    top: 27px;
+    left: 25px;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+
+.obanai-content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 55%;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    margin: 0;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+    text-align: justify;  
+}
+
+.obanai-btn button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #3c0101;
+    border-color: #3c0101;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px hsl(0, 96%, 10%);
+    position: absolute;
+    bottom: 69px;
+    left: 33px;
+}
+
+.obanai-btn button:hover {
+    border-color:#3c0101;
+    background-color: transparent;
+    color:#3c0101;
+}
+
+.obanai-btn a {
+    text-decoration: none;
+    color: #F3F0E0; 
+}
+
+.obanai-btn a:hover{
+    color: #3c0101;
+    transition: 0.5s;
+}
+
+.obanai-image {
+    width: 20%;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1620px;
+    left: 310px;
+}
+
+.obanai-image img {
+    height: 170%;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.muichiro-content {
+    background-color: #540202;
+    margin-top: -290px;
+    margin-left: 1010px;
+    display: flex;   
+    flex-wrap: wrap;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 4px 4px 10px hsl(0, 97%, 12%); 
+}
+
+.muichiro-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 280px;
+    margin: 0;
+    position: absolute;
+    top: 27px;
+    left: 25px;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+
+.muichiro-content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 55%;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    margin: 0;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+    text-align: justify;  
+}
+
+.muichiro-btn button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #3c0101;
+    border-color: #3c0101;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px hsl(0, 96%, 10%);
+    position: absolute;
+    bottom: 50px;
+    left: 33px;
+}
+
+.muichiro-btn button:hover {
+    border-color:#3c0101;
+    background-color: transparent;
+    color:#3c0101;
+}
+
+.muichiro-btn a {
+    text-decoration: none;
+    color: #F3F0E0; 
+}
+
+.muichiro-btn a:hover{
+    color: #3c0101;
+    transition: 0.5s;
+}
+
+.muichiro-image {
+    width: 20%;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1620px;
+    left: 770px;
+}
+
+.muichiro-image img {
+    height: 170%;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.shinobu-content {
+    background-color: #540202;
+    margin-top: 90px;
+    margin-left: 70px;
+    display: flex;   
+    flex-wrap: wrap;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 4px 4px 10px hsl(0, 97%, 12%); 
+}
+
+.shinobu-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 280px;
+    margin: 0;
+    position: absolute;
+    top: 27px;
+    left: 25px;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+
+.shinobu-content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 50%;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    margin: 0;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+    text-align: justify;  
+}
+
+.shinobu-btn button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #3c0101;
+    border-color: #3c0101;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px hsl(0, 96%, 10%);
+    position: absolute;
+    bottom: 53px;
+    left: 33px;
+}
+
+.shinobu-btn button:hover {
+    border-color:#3c0101;
+    background-color: transparent;
+    color:#3c0101;
+}
+
+.shinobu-btn a {
+    text-decoration: none;
+    color: #F3F0E0; 
+}
+
+.shinobu-btn a:hover{
+    color: #3c0101;
+    transition: 0.5s;
+}
+
+.shinobu-image {
+    width: 20%;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 2001px;
+    left: -185px;
+}
+
+.shinobu-image img {
+    height: 170%;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.mitsuri-content {
+    background-color: #540202;
+    margin-top: -290px;
+    margin-left: 540px;
+    display: flex;   
+    flex-wrap: wrap;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 4px 4px 10px hsl(0, 97%, 12%); 
+}
+
+.mitsuri-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 280px;
+    margin: 0;
+    position: absolute;
+    top: 27px;
+    left: 25px;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+
+.mitsuri-content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 55%;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    margin: 0;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+    text-align: justify;  
+}
+
+.mitsuri-btn button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #3c0101;
+    border-color: #3c0101;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px hsl(0, 96%, 10%);
+    position: absolute;
+    bottom: 69px;
+    left: 33px;
+}
+
+.mitsuri-btn button:hover {
+    border-color:#3c0101;
+    background-color: transparent;
+    color:#3c0101;
+}
+
+.mitsuri-btn a {
+    text-decoration: none;
+    color: #F3F0E0; 
+}
+
+.mitsuri-btn a:hover{
+    color: #3c0101;
+    transition: 0.5s;
+}
+
+.mitsuri-image {
+    width: 20%;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1998px;
+    left: 310px;
+}
+
+.mitsuri-image img {
+    height: 170%;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.kanae-content {
+    background-color: #540202;
+    margin-top: -290px;
+    margin-left: 1010px;
+    display: flex;   
+    flex-wrap: wrap;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 4px 4px 10px hsl(0, 97%, 12%); 
+}
+
+.kanae-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 280px;
+    margin: 0;
+    position: absolute;
+    top: 27px;
+    left: 25px;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+
+.kanae-content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 55%;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    margin: 0;
+    color: #F3F0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+    text-align: justify;  
+}
+
+.kanae-btn button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #3c0101;
+    border-color: #3c0101;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px hsl(0, 96%, 10%);
+    position: absolute;
+    bottom: 85px;
+    left: 33px;
+}
+
+.kanae-btn button:hover {
+    border-color:#3c0101;
+    background-color: transparent;
+    color:#3c0101;
+}
+
+.kanae-btn a {
+    text-decoration: none;
+    color: #F3F0E0; 
+}
+
+.kanae-btn a:hover{
+    color: #3c0101;
+    transition: 0.5s;
+}
+
+.kanae-image {
+    width: 20%;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 2011px;
+    left: 770px;
+}
+
+.kanae-image img {
+    height: 170%;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.footer {
+    background-color: #540202;
+    width: 200%;
+    height: 210px;
+    margin-top: 100px;
+}
+
+.footer h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #F3F0E0;
+    margin-left: 70px;
+    position: absolute;
+    padding: 20px;
+}
+
+.fb-logo img {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: -20px;
+    padding-top: 25px;
+}
+
+.yt-logo img {
+    width: 450px;
+    height: 200px;
+    position: absolute;  
+    left: -15px;
+}
